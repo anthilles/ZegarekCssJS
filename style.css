@@ -1,0 +1,52 @@
+body {
+    background: url("ws_Multicolor_Patterns_by_Simon_C._Page_1920x1200.jpg");
+}
+
+/*
+.clock {
+    width: 50%;
+    height: 50%;
+}
+*/
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid black;
+    border-radius: 50%;
+    background-image: url("4529435-glass-wallpapers.jpg");
+    background: rgba(0,0,0,0.4);
+    box-shadow: 1px 1px 5px blue;
+}
+
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+
+.hand {
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top:50%;
+    
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: 0.005s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+        box-shadow: 1px 1px 1px grey
+            ;
+}
+
+.sec-hand {
+    height: 2px;
+}
+
+.hour-hand {
+    height: 10px;
+    width: 30%;
+    margin: 0 0 0 20%;
+}
